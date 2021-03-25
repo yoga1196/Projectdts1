@@ -1,0 +1,154 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #001869;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left h1 {
+    float: left;
+    background-color: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.main {
+    padding: 100px 80px;
+    background-color: #5CDB95;
+}
+
+.copy-container {
+    padding: 20px;
+    width: 1172px;
+}
+
+.copy-container h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.copy-container h2 {
+    font-family: sans-serif;
+    text-decoration-style: dotted;
+}
+
+.contents-item {
+    text-align: center;
+}
+
+.contents-item p {
+    color: white;
+    font-size: 100;
+    font-family: sans-serif;
+}
+
+.contents-item img {
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+    background-color: #edf5e1;
+    color: #05386b;
+    height: 150px;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.footer-logo {
+    float: left;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 20px 0px 0px 60px;
+}
+
+.paragraf-logo1 {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.paragraf-logo2 {
+    font-size: 9px;
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+}
+
+img {
+    width: 132px;
+    height: 27px;
+    margin: 0px;
+    padding: 7px 0px 0px 0px;
+}
+
+.footer-list {
+    float: right;
+    font-family: sans-serif;
+    padding: 10px 100px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #05386b;
+}
